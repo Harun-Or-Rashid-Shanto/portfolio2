@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanto Ahmed</title>
+    <link rel="shortcut icon" href="resources/img/favicon.ico" type="image/x-icon">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- vendors css file -->
+    <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendors/css/animated-circle.css">
+    <link rel="stylesheet" href="vendors/css/slick.css">
+    <link rel="stylesheet" href="vendors/css/slick-theme.css">
+    <!-- resources css file -->
+    <link rel="stylesheet" href="resources/css/style.css">
+</head>
+<body>
+    <div id="preloader"></div>
+<header id="home">
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">portf<span>olio.</span></a>
+            <ul class="main-nav">
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#skill">skill</a></li>
+                <li><a href="#team">team</a></li>
+                <li><a href="#project">project</a></li>
+                <li><a href="#review">review</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+            <div class="mobile-nav">
+                <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+                <div class="overlay" id="myNav">
+                    <span onclick="closeNav()">&times;</span>
+                    <div class="overlay-content">
+                        <a onclick="closeNav()" href="#home">home</a>
+                        <a onclick="closeNav()" href="#about">about</a>
+                        <a onclick="closeNav()" href="#services">services</a>
+                        <a onclick="closeNav()" href="#skill">skill</a>
+                        <a onclick="closeNav()" href="#team">team</a>
+                        <a onclick="closeNav()" href="#project">project</a>
+                        <a onclick="closeNav()" href="#review">review</a>
+                        <a onclick="closeNav()" href="#contact">contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 box mt-5">
+                <h3>Hello, my name is</h3>
+                <h1>Harunor Rashid Shanto</h1>
+                <h3>And I'm a <span class="typed-test"></span></h3>
+                <a class="btn btn-hero mt-5" href="#">About me</a>
+                <div class="social-contact">
+                    <a href="https://web.facebook.com/shanto.ahmed.101" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 mt-5 text-center">
+                <img src="resources/img/header-3.png" class="img-fluid head-img" alt="">
+            </div>
+        </div>
+    </div>
+    <a href="#home" class="top-icon" id="top"><i class="fas fa-chevron-up"></i></a>
+</header>
+<!-- about part -->
+<section id="about" class="about-section waypoint-nav">
+    <div class="container">
+        <div class="row mb-5">
+            <h2 class="mx-auto">About me</h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 mt-4 text-center" data-aos="fade-right" data-aos-duration="2000">
+                <img src="resources/img/about.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-sm-6 mt-4" data-aos="fade-left" data-aos-duration="2000">
+                <h3> I'm a <span class="typed-test">Web Designer</span></h3>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores placeat inventore rerum tempore cupiditate, amet adipisci aut eius facilis quisquam magni ratione maxime officiis earum blanditiis magnam illum obcaecati vero? Odit ipsa facilis officiis fuga voluptate similique sunt exercitationem voluptatibus, illo et fugit eveniet provident quo atque, nesciunt explicabo tenetur!</p>
+                <a href="#" class="btn btn-hero mt-4">download cv</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- services section -->
+<section id="services" class="services-section">
+    <div class="row">
+        <h2 class="mx-auto text-light">Services</h2>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 mt-5" data-aos="flip-left" data-aos-duration="2000">
+            <div class="card">
+                <div class="card-body text-center">
+                    <i class="fab fa-accusoft"></i>
+                    <h4>landing page</h4>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. At cupiditate repellendus quasi corporis obcaecati eveniet animi autem nemo quibusdam sequi.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 mt-5" data-aos="flip-left" data-aos-duration="2000">
+            <div class="card">
+                <div class="card-body text-center">
+                    <i class="fas fa-adjust"></i>
+                    <h4>PSD to HTML</h4>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. At cupiditate repellendus quasi corporis obcaecati eveniet animi autem nemo quibusdam sequi.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 mt-5">
+            <div class="card">
+                <div class="card-body text-center">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h4>e-commerce website</h4>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. At cupiditate repellendus quasi corporis obcaecati eveniet animi autem nemo quibusdam sequi.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 mt-5">
+            <div class="card">
+                <div class="card-body text-center">
+                    <i class="fas fa-laptop-code"></i>
+                    <h4>web design</h4>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. At cupiditate repellendus quasi corporis obcaecati eveniet animi autem nemo quibusdam sequi.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- skill section -->
+<section id="skill" class="skill-section">
+    <div class="container">
+        <div class="row">
+            <h2 class="mx-auto">My skill</h2>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 mt-4">
+                <svg class="radial-progress web-design" data-percentage="82" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">82%</text>
+                  </svg>
+                  <h3>WEB DESIGN</h3>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-4">
+                <svg class="radial-progress html" data-percentage="92" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">92%</text>
+                  </svg>
+                  <h3>HTML</h3>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-4">
+                <svg class="radial-progress css" data-percentage="80" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">80%</text>
+                  </svg>
+                  <h3>CSS</h3>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-4">
+                <svg class="radial-progress bootstrap" data-percentage="85" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+                  </svg>
+                  <h3>BOOTSTRAP</h3>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-4">
+                <svg class="radial-progress javascript" data-percentage="55" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">55%</text>
+                  </svg>
+                  <h3>JAVASCRIPT</h3>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 mt-4">
+                <svg class="radial-progress jquery" data-percentage="70" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+                  </svg>
+                  <h3>JQuery</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- team section -->
+<section id="team" class="team-section">
+    <div class="container">
+        <h2 class="text-center text-light">My Team</h2>
+        <div class="row slider">
+            <div class="col-12 mt-4">
+                <div class="card team-box text-center text-light">
+                    <div class="card-body">
+                        <img src="resources/img/profile1.jpg" class="img-fluid mx-auto" alt="team-1">
+                        <h4>Jhon Abraham</h4>
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi dolorum, totam cum ipsum sed id dignissimos unde reprehenderit eius soluta!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="card team-box text-center text-light">
+                    <div class="card-body">
+                        <img src="resources/img/profile2.jpg" class="img-fluid mx-auto" alt="team-1">
+                        <h4>Jhon Abraham</h4>
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi dolorum, totam cum ipsum sed id dignissimos unde reprehenderit eius soluta!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="card team-box text-center text-light">
+                    <div class="card-body">
+                        <img src="resources/img/profile3.jpg" class="img-fluid mx-auto" alt="team-1">
+                        <h4>Jhon Abraham</h4>
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi dolorum, totam cum ipsum sed id dignissimos unde reprehenderit eius soluta!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="card team-box text-center text-light">
+                    <div class="card-body">
+                        <img src="resources/img/profile4.jpg" class="img-fluid mx-auto" alt="team-1">
+                        <h4>Jhon Abraham</h4>
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi dolorum, totam cum ipsum sed id dignissimos unde reprehenderit eius soluta!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="card team-box text-center text-light">
+                    <div class="card-body">
+                        <img src="resources/img/profile5.jpg" class="img-fluid mx-auto" alt="team-1">
+                        <h4>Jhon Abraham</h4>
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi dolorum, totam cum ipsum sed id dignissimos unde reprehenderit eius soluta!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+<!-- project section -->
+<section id="project" class="project-section text-center">
+    <div class="container">
+        <h2>my last project</h2>
+        <div class="row">
+            <div class="project-filter mx-auto my-5">
+                <button type="button" data-filter="all">all project</button>
+                <button type="button" data-filter=".psd">psd to html</button>
+                <button type="button" data-filter=".landing">landing page</button>
+                <button type="button" data-filter=".web">website</button>
+            </div>
+        </div>
+        <div class="row mix-item">
+            <div class="col-sm-6 col-md-4 mt-3 mt-sm-5 mix psd">
+                <img src="resources/img/p1.png" class="img-fluid" alt="project-1">
+                <div class="img-overlay">
+                    <a href="psd/index.html" target="_blank"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 mt-3 mt-sm-5 mix web">
+                <img src="resources/img/p2.png" class="img-fluid" alt="project-1">
+                <div class="img-overlay">
+                    <a href="eduford/index.html" target="_blank"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 mt-3 mt-sm-5 mix web">
+                <img src="resources/img/p3.png" class="img-fluid" alt="project-1">
+                <div class="img-overlay">
+                    <a href="Glozzom/src/index.html" target="_blank"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 mt-3 mt-sm-5 mix landing">
+                <img src="resources/img/p4.png" class="img-fluid" alt="project-1">
+                <div class="img-overlay">
+                    <a href="restaurant/index.html" target="_blank"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 mt-3 mt-sm-5 mix landing">
+                <img src="resources/img/p5.png" class="img-fluid" alt="project-1">
+                <div class="img-overlay">
+                    <a href="travel/index.html" target="_blank"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 mt-3 mt-sm-5 mix web">
+                <img src="resources/img/p6.png" class="img-fluid" alt="project-1">
+                <div class="img-overlay">
+                    <a href="e-commerce1/index.html" target="_blank"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 mt-3 mt-sm-5 mix landing">
+                <img src="resources/img/p7.png" class="img-fluid" alt="project-1">
+                <div class="img-overlay">
+                    <a href="BOOKSHOP/src/index.html" target="_blank"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 mt-3 mt-sm-5 mix landing">
+                <img src="resources/img/p8.png" class="img-fluid" alt="project-1">
+                <div class="img-overlay">
+                    <a href="LoopLAB/src/index.html" target="_blank"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 mt-3 mt-sm-5 mix landing">
+                <img src="resources/img/p9.png" class="img-fluid" alt="project-1">
+                <div class="img-overlay">
+                    <a href="Mizuex/src/index.html" target="_blank"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- review-section -->
+<section id="review" class="review-section">
+    <div class="container">
+        <h2>Review</h2>
+        <div class="row review-slick">
+            <div class="col-12 mt-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="resources/img/pic1.png" class="img-fluid mx-auto" alt="review-1">
+                        <h4>Tom krish</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi dolorum perferendis dignissimos et amet doloremque illum, nobis quis excepturi praesentium. Lorem ipsum dolor sit amet.</p>
+                        <div class="icon-star">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="resources/img/pic2.png" class="img-fluid mx-auto" alt="review-1">
+                        <h4>Tom krish</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi dolorum perferendis dignissimos et amet doloremque illum, nobis quis excepturi praesentium. Lorem ipsum dolor sit amet.</p>
+                        <div class="icon-star">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="resources/img/pic3.png" class="img-fluid mx-auto" alt="review-1">
+                        <h4>Tom krish</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi dolorum perferendis dignissimos et amet doloremque illum, nobis quis excepturi praesentium. Lorem ipsum dolor sit amet.</p>
+                        <div class="icon-star">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star-half-alt"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="resources/img/pic4.png" class="img-fluid mx-auto" alt="review-1">
+                        <h4>Tom krish</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi dolorum perferendis dignissimos et amet doloremque illum, nobis quis excepturi praesentium. Lorem ipsum dolor sit amet.</p>
+                        <div class="icon-star">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="resources/img/pic5.jpg" class="img-fluid mx-auto" alt="review-1">
+                        <h4>Tom krish</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi dolorum perferendis dignissimos et amet doloremque illum, nobis quis excepturi praesentium. Lorem ipsum dolor sit amet.</p>
+                        <div class="icon-star">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star-half-alt"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- contact section -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2 class="text-center">contact me</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>get in touch</h3>
+                <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores harum repudiandae officiis molestiae quo reprehenderit veniam reiciendis tempore nihil explicabo!</p>
+                <div class="contact-box">
+                    <i class="fas fa-user"></i>
+                    <span>
+                        <h5>name</h5>
+                        <p>Harunor Rashid</p>
+                    </span>
+                </div>
+                <div class="contact-box">
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h5>address</h5>
+                        <p>Pabna,Dhaka,Bangladesh</p>
+                    </span>
+                </div>
+                <div class="contact-box">
+                    <i class="fas fa-envelope"></i>
+                    <span>
+                        <h5>email</h5>
+                        <p>harunorrashid1178@gmail.com</p>
+                    </span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Message Me</h3>
+                <form action="form-control.php" method="POST">
+                    <input type="text" name="Name" placeholder="Name" class="form-control">
+                    <input type="email" name="Email" placeholder="Email" class="form-control">
+                    <input type="text" name="Subject" placeholder="Subject" class="form-control">
+                    <textarea name="Message" id="message" cols="10" rows="5" placeholder="Message" class="form-control"></textarea>
+                    <button class="btn btn-hero" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- bootstrap js file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- vendors js file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="vendors/js/respond.min.js"></script>
+    <script src="vendors/js/selectivizr-min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="vendors/js/animated-circle.js"></script>
+    <script src="vendors/js/slick.min.js"></script>
+    <script src="vendors/js/mixitup.min.js"></script>
+    <!-- main js file -->
+    <script src="resources/js/index.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D05SLJMQNG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-D05SLJMQNG');
+    </script>
+</body>
+</html>

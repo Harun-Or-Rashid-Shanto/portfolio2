@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour and Travel</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- slick css -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><span>T</span>ravel</a>
+        <nav class="navbar">
+            <ul class="list-unstyled">
+                <li>
+                    <a href="#home">home</a>
+                </li>
+                <li>
+                    <a href="#book">book</a>
+                </li>
+                <li>
+                    <a href="#packages">Packages</a>
+                </li>
+                <li>
+                    <a href="#service">Service</a>
+                </li>
+                <li>
+                    <a href="#gallery">gallery</a>
+                </li>
+                <li>
+                    <a href="#review">review</a>
+                </li>
+                <li>
+                    <a href="#contact">contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="#" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search bar.......">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+<!-------------login  part ------------->
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="#">
+        <h3>Login</h3>
+        <input type="email" class="box" placeholder="Email">
+        <input type="password" class="box" placeholder="Password">
+        <input type="submit" value="Login Now" class="button">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember Me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have any account? <a href="#">register now.</a></p>
+    </form>
+</div>
+
+<!-------------home  part ------------->
+<section id="home" class="home">
+<div class="content text-center text-light">
+    <h1>adventure is worthwhile</h1>
+    <p>dicover new places with us, adventure awaits</p>
+    <a href="#" class="discover-btn">Discover More</a>
+</div>
+
+<div class="control">
+    <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+    <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+    <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+    <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+    <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+</div>
+
+
+<div class="video-container">
+    <video src="images/vid-1.mp4" id="video-slide" loop autoplay muted></video>
+</div>
+</section>
+<!-------------book  part ------------->
+<section id="book" class="py-5">
+<div class="container">
+    <h1 class="heading text-center">
+        <span>B</span>
+        <span>O</span>
+        <span>O</span>
+        <span>K</span>
+        <span class="ml-4">N</span>
+        <span>O</span>
+        <span>W</span>
+    </h1>
+    <div class="row my-5">
+        <div class="col-md-6 text-center">
+            <img src="images/book-img.svg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-6 mt-4">
+            <div class="card">
+                <div class="card-body">
+                    <form action="#">
+                        <div class="form-group">
+                            <h3>Where To</h3>
+                            <input type="text" placeholder="place name">
+                        </div>
+                        <div class="form-group">
+                            <h3>How Many</h3>
+                            <input type="number" placeholder="number of guests">
+                        </div>
+                        <div class="form-group">
+                            <h3>Arrivals</h3>
+                            <input type="date">
+                        </div>
+                        <div class="form-group mb-5">
+                            <h3>Leaving</h3>
+                            <input type="date">
+                        </div>
+                        <a href="#" class="discover-btn">Book Now</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-------------packages  part ------------->
+<section id="packages" class="py-5">
+<div class="container" >
+<h1 class="heading text-center">
+<span>P</span>
+<span>A</span>
+<span>C</span>
+<span>K</span>
+<span>A</span>
+<span>G</span>
+<span>E</span>
+<span>S</span>
+</h1>
+<div class="row">
+    <div class="col-sm-6 col-lg-4 mt-5">
+        <div class="card pb-4">
+            <img src="images/p-1.jpg" class="img-fluid" alt="">
+            <div class="card-body">
+                <h3 class="card-title"><i class="fas fa-map-marker-alt"></i>Mumbai</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, modi.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">
+                    <h4>$90.00</h4> <span>$120.00</span>
+                </div>
+                <a href="#" class="discover-btn">Book Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mt-5">
+        <div class="card pb-4">
+            <img src="images/p-2.jpg" class="img-fluid" alt="">
+            <div class="card-body">
+                <h3 class="card-title"><i class="fas fa-map-marker-alt"></i>Hawaii</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, modi.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">
+                    <h4>$90.00</h4> <span>$120.00</span>
+                </div>
+                <a href="#" class="discover-btn">Book Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mt-5">
+        <div class="card pb-4">
+            <img src="images/p-3.jpg" class="img-fluid" alt="">
+            <div class="card-body">
+                <h3 class="card-title"><i class="fas fa-map-marker-alt"></i>Sydney</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, modi.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">
+                    <h4>$90.00</h4> <span>$120.00</span>
+                </div>
+                <a href="#" class="discover-btn">Book Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mt-5">
+        <div class="card pb-4">
+            <img src="images/p-4.jpg" class="img-fluid" alt="">
+            <div class="card-body">
+                <h3 class="card-title"><i class="fas fa-map-marker-alt"></i>Paris</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, modi.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">
+                    <h4>$90.00</h4> <span>$120.00</span>
+                </div>
+                <a href="#" class="discover-btn">Book Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mt-5">
+        <div class="card pb-4">
+            <img src="images/p-5.jpg" class="img-fluid" alt="">
+            <div class="card-body">
+                <h3 class="card-title"><i class="fas fa-map-marker-alt"></i>Tokio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, modi.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">
+                    <h4>$90.00</h4> <span>$120.00</span>
+                </div>
+                <a href="#" class="discover-btn">Book Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mt-5">
+        <div class="card pb-4">
+            <img src="images/p-6.jpg" class="img-fluid" alt="">
+            <div class="card-body">
+                <h3 class="card-title"><i class="fas fa-map-marker-alt"></i>Eypt</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, modi.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">
+                    <h4>$90.00</h4> <span>$120.00</span>
+                </div>
+                <a href="#" class="discover-btn">Book Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+<!-------------service  part ------------->
+<section id="service" class="py-5 text-center">
+    <div class="container">
+        <h1 class="heading">
+            <span>S</span>
+            <span>E</span>
+            <span>R</span>
+            <span>V</span>
+            <span>I</span>
+            <span>C</span>
+            <span>E</span>
+            <span>S</span>
+        </h1>
+        <div class="row">
+            <div class="col-sm-6 col-lg-4 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fas fa-hotel"></i>
+                        <h1>Affordable Hotels</h1>
+                        <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Inventore Commodi Earum, Quis Voluptate Exercitationem Ut Minima Itaque Iusto Ipsum Corrupti!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fas fa-utensils"></i>
+                        <h1>Food And Drinks</h1>
+                        <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Inventore Commodi Earum, Quis Voluptate Exercitationem Ut Minima Itaque Iusto Ipsum Corrupti!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fas fa-bullhorn"></i>
+                        <h1>Safty Guide</h1>
+                        <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Inventore Commodi Earum, Quis Voluptate Exercitationem Ut Minima Itaque Iusto Ipsum Corrupti!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fas fa-globe-asia"></i>
+                        <h1>Around The World</h1>
+                        <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Inventore Commodi Earum, Quis Voluptate Exercitationem Ut Minima Itaque Iusto Ipsum Corrupti!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fas fa-plane"></i>
+                        <h1>Fastest Travel</h1>
+                        <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Inventore Commodi Earum, Quis Voluptate Exercitationem Ut Minima Itaque Iusto Ipsum Corrupti!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <i class="fas fa-hiking"></i>
+                        <h1>Adventures</h1>
+                        <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Inventore Commodi Earum, Quis Voluptate Exercitationem Ut Minima Itaque Iusto Ipsum Corrupti!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-------------gallery  part ------------->
+<section id="gallery" class="py-5">
+<div class="container">
+    <h1 class="heading text-center">
+        <span>G</span>
+        <span>A</span>
+        <span>L</span>
+        <span>L</span>
+        <span>E</span>
+        <span>R</span>
+        <span>Y</span>
+    </h1>
+    <div class="row">
+        <div class="col-sm-6 col-lg-4 mt-4">
+            <div class="card">
+                <img src="images/g-1.jpg" class="img-fluid" alt="">
+                <div class="card-text text-center">
+                    <h3>Amazing Place</h3>
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#" class="discover-btn">See More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mt-4">
+            <div class="card">
+                <img src="images/g-2.jpg" class="img-fluid" alt="">
+                <div class="card-text text-center">
+                    <h3>Amazing Place</h3>
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#" class="discover-btn">See More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mt-4">
+            <div class="card">
+                <img src="images/g-3.jpg" class="img-fluid" alt="">
+                <div class="card-text text-center">
+                    <h3>Amazing Place</h3>
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#" class="discover-btn">See More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mt-4">
+            <div class="card">
+                <img src="images/g-4.jpg" class="img-fluid" alt="">
+                <div class="card-text text-center">
+                    <h3>Amazing Place</h3>
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#" class="discover-btn">See More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mt-4">
+            <div class="card">
+                <img src="images/g-5.jpg" class="img-fluid" alt="">
+                <div class="card-text text-center">
+                    <h3>Amazing Place</h3>
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#" class="discover-btn">See More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mt-4">
+            <div class="card">
+                <img src="images/g-6.jpg" class="img-fluid" alt="">
+                <div class="card-text text-center">
+                    <h3>Amazing Place</h3>
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#" class="discover-btn">See More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mt-4">
+            <div class="card">
+                <img src="images/g-7.jpg" class="img-fluid" alt="">
+                <div class="card-text text-center">
+                    <h3>Amazing Place</h3>
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#" class="discover-btn">See More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mt-4">
+            <div class="card">
+                <img src="images/g-8.jpg" class="img-fluid" alt="">
+                <div class="card-text text-center">
+                    <h3>Amazing Place</h3>
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#" class="discover-btn">See More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mt-4">
+            <div class="card">
+                <img src="images/g-9.jpg" class="img-fluid" alt="">
+                <div class="card-text text-center">
+                    <h3>Amazing Place</h3>
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#" class="discover-btn">See More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-------------review  part ------------->
+<section id="review" class="py-5 text-center">
+    <div class="container">
+        <h1 class="heading text-center">
+            <span>R</span>
+            <span>E</span>
+            <span>V</span>
+            <span>I</span>
+            <span>E</span>
+            <span>W</span>
+        </h1>
+        <div class="row slick-item">
+            <div class="col-12 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="images/pic1.png" alt="">
+                        <h2>Jhon Deo</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, minus ad beatae, totam libero voluptatibus nulla tempora blanditiis neque officiis in vero, ab corporis nostrum aspernatur ratione amet eaque! Officiis amet iure labore quam suscipit porro hic est molestias natus!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="images/pic2.png" alt="">
+                        <h2>Jhon Deo</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, minus ad beatae, totam libero voluptatibus nulla tempora blanditiis neque officiis in vero, ab corporis nostrum aspernatur ratione amet eaque! Officiis amet iure labore quam suscipit porro hic est molestias natus!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="images/pic3.png" alt="">
+                        <h2>Jhon Deo</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, minus ad beatae, totam libero voluptatibus nulla tempora blanditiis neque officiis in vero, ab corporis nostrum aspernatur ratione amet eaque! Officiis amet iure labore quam suscipit porro hic est molestias natus!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="images/pic4.png" alt="">
+                        <h2>Jhon Deo</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, minus ad beatae, totam libero voluptatibus nulla tempora blanditiis neque officiis in vero, ab corporis nostrum aspernatur ratione amet eaque! Officiis amet iure labore quam suscipit porro hic est molestias natus!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!------------- contact part ------------->
+<section id="contact" class="py-5">
+<div class="container">
+    <h1 class="heading text-center">
+        <span>R</span>
+        <span>E</span>
+        <span>V</span>
+        <span>I</span>
+        <span>E</span>
+        <span>W</span>
+    </h1>
+    <div class="row">
+        <div class="col-md-6 text-center text-sm-right mt-5">
+            <img src="images/contact-img.svg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-6 mt-5">
+            <div class="contact-card">
+                <div class="card-body">
+                    <form action="#">
+                        <div class="form-group">
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" placeholder="Number">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="Message" cols="5" rows="5" placeholder="Message"></textarea>
+                        </div>
+                        <a href="#" class="discover-btn">Send Message</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- -----------logo part --------- -->
+<section id="logo" class="py-5">
+    <div class="container">
+        <div class="row logo-item mx-auto">
+            <div class="col-12">
+                <img src="images/1.jpg" alt="">
+            </div>
+            <div class="col-12">
+                <img src="images/2.jpg" alt="">
+            </div>
+            <div class="col-12">
+                <img src="images/3.jpg" alt="">
+            </div>
+            <div class="col-12">
+                <img src="images/4.jpg" alt="">
+            </div>
+            <div class="col-12">
+                <img src="images/5.jpg" alt="">
+            </div>
+            <div class="col-12">
+                <img src="images/6.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- -------------footer ------------>
+<footer id="footer" class="py-5">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-3 mt-4">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, animi cupiditate! Odit adipisci eligendi similique.</p>
+        </div>
+        <div class="col-sm-6 col-md-3 mt-4">
+            <h1>Branch Location</h1>
+            <ul>
+                <li><a href="#">Bangladesh</a></li>
+                <li><a href="#">USA</a></li>
+                <li><a href="#">UK</a></li>
+                <li><a href="#">Italy</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-6 col-md-3 mt-4">
+            <h1>Quick Link</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#book">Book</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#galley">Gallery</a></li>
+                <li><a href="#review">Review</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-6 col-md-3 mt-4">
+            <h1>Follow Us</h1>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Linkedin</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <p class="text-center mt-5">Create By &copy; <a href="https://web.facebook.com/shanto.ahmed.101/" class="text-info text-decoration-none">Shanto</a></p>
+</div>
+</footer>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- slick js -->
+    <script src="js/slick.min.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
